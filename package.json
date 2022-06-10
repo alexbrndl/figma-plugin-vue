@@ -1,0 +1,22 @@
+{
+  "name": "figma-plugin-vue",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.47.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.11",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-singlefile": "^0.9.0",
+    "vue-tsc": "^0.37.3"
+  }
+}
